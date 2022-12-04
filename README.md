@@ -1,23 +1,52 @@
-# Customer-Segmentation-Using-K-Means-Clustering
+# CUSTOMER SEGMENTATION USING K -  MEANS CLUsTERING
+
+## **Title:**
+Customer Segmentation Using K Means Clustering
 
 
-Clustering Algorithms:
+## **Problem Statement:**
+Using Mall Customer Dataset and performing K-Means clustering to segregate customers based on the data in form of optimal clusters.
 
-Clustering algorithms attempt to find natural clusters in the data and various aspects of how to tune and modify the algorithms used to cluster the data. Clustering is based on the principle that elements in the same cluster should be similar to each other. Data is grouped and related items are placed close together.
+	
+##	**Clustering Algorithms:**
+
+Clustering algorithms attempt to find natural clusters in the data and various aspects of how to tune and modify the algorithms used to cluster the data. 
+
+Clustering is based on the principle that elements in the same cluster should be similar to each other. 
+Data is grouped and related items are placed close together.
+
+Using a clustering algorithm means you're going to give the algorithm a lot of input data with no labels and let it find any groupings in the data it can.
+Clustering is used for things like feature engineering or pattern discovery.
+
+When you're starting with data you know nothing about, clustering might be a good place to get some insight.
 
 
-K-Means Clustering Algorithm:
+## **K - Means Clustering Algorithm:**
 
-K-Means clustering is an unsupervised machine learning algorithm that divides specified data into a specified number of clusters. where 'K' is the specified number of defined clusters that need to be created.
+K-Means clustering is an unsupervised machine learning algorithm that divides specified data into a specified number of clusters. Here 'K' is the specified number of defined clusters that need to be created.
 
 This is a centroid-based algorithm where each cluster is associated with a centroid. The main idea is to reduce the distance between the data points and their respective cluster centroids.
 
-This algorithm takes raw unlabeled data as input and divides the data set into clusters. This process is repeated until the best cluster is found.
+The k-means clustering algorithm mainly performs two tasks:
+
+1. Determines the best value for K center points or centroids by an iterative process.
+
+2. Assigns each data point to its closest k-center. Those data points which are near to the particular k-center, create a cluster.
+
+Hence each cluster has datapoints with some commonalities, and it is away from other clusters.
 
 K-Means are very simple and easy to implement. It is highly scalable and applicable to both small and large datasets. However, there is a problem with choosing the number of clusters or K. Also, as the dimensionality increases, the stability decreases. Overall, however, K Means is a simple and robust algorithm that makes clustering very easy.
 
 
-Mall Customer Segmentation:
+## **Process:**
+
+1. Understanding the data.
+2. Perform Elbow method to find Optimal No. of clusters.
+3. Training a model using unsupervised learning algorithm(K-means)
+4. Plotting the Clusters.
+
+
+## **Mall Customers Data Segmentation:**
 
 The mall customer data is an interesting data set of hypothetical customer data. It puts you in the shoes of a supermarket owner. We have customer data and based on that we need to divide the customers into different groups.
 
@@ -35,25 +64,45 @@ The data includes the following features:
 
 The data has 200 entries, that is data from 200 customers.
 
+The foremost step includes determining the relationship of all features within the dataset. We do this with the help of a heatmap.
+
+### HEATMAP SHOWING RELATIONSHIP BETWEEN ALL FEATURES
+
+![image](https://user-images.githubusercontent.com/73705676/205503314-0a23e6cb-51c9-438a-bbe9-f979b94208d8.png)
+
+
 
 We first observed the distributions of Annual Income and the Spending Scores of the customers present int the dataset.
 
-![annual income-removebg-preview](https://user-images.githubusercontent.com/73705676/204354114-09c30f23-1140-44b9-ae68-5ab0ab24a3d2.jpg)
-![spending score-removebg-preview](https://user-images.githubusercontent.com/73705676/204354155-f669d39a-322b-4572-954f-732112fd187c.jpg)
+### DISTRIBUTION OF SPENDING SCORE IN THE DATASET
+![image](https://user-images.githubusercontent.com/73705676/205504547-e79de05d-7039-4ebc-bfad-10ed3409d4af.png)
 
+### DISTRIBUTION OF ANNUAL INCOME IN THE DATASET
+![image](https://user-images.githubusercontent.com/73705676/205504473-f8a85890-6c53-4b2a-a751-e267f5372528.png)
 
 
 Then we try to determine the number of clusters that can be formed based on these two features using the elbow method
 
-![elbow-removebg-preview](https://user-images.githubusercontent.com/73705676/204354499-6ddbb24c-2f7d-431d-a669-3c8852e3ff2f.jpg)
+### ELBOW PLOT
+![image](https://user-images.githubusercontent.com/73705676/205504596-60195681-ce3c-4abd-a8f2-db8adfe955c6.png)
 
 
 From this graph, we find that 5 clusters can be formed with labels starting from 0 to 1.
 
-![scatterplot-removebg-preview](https://user-images.githubusercontent.com/73705676/204353482-443949c5-b5b9-492b-a1fb-0b56744ddb5f.jpg)
+### SCATTER PLOT
+![image](https://user-images.githubusercontent.com/73705676/205504812-9381b0dd-9f39-4035-8283-3281e6dbdc5c.png)
 
 
 
-It can be clearly seen that five distinct clusters formed from the data. The fourth cluster is the lowest-income, lowest-spending customers, and similarly the second cluster is the highest-income, highest-spending customers.
+It can be clearly seen that five distinct clusters formed from the data. 
 
-The mall should thus, develop policies that are more favourable for the second cluster of customers. 
+1. The brown cluster (label = 2) is the lowest-income, lowest-spending customers
+
+2. Similarly the orange cluster (label = 1) is the highest-income, highest-spending customers.
+
+3. Whereas, the red cluster (label = 4) is the group of customers with moderate income and moderate spending score.
+
+
+## **Conclusion:**
+
+Hence we can say company should target the orange cluster (label = 1) and the red cluster (label = 4) in order to increase their sales and gnerate maximum revenue.
