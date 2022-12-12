@@ -5,7 +5,7 @@ Customer Segmentation Using K Means Clustering
 
 
 ## **Problem Statement:**
-Using Mall Customer Dataset and performing K-Means clustering to segregate customers based on the data in form of optimal clusters.
+We are given a dataset consisting of details regrading customers of a shoppng mall. Based on this mall customers dataset, and performing K-Means clustering, we need to segregate customers in form of optimal clusters.
 
 	
 ##	**Clustering Algorithms:**
@@ -33,7 +33,9 @@ The k-means clustering algorithm mainly performs two tasks:
 
 2. Assigns each data point to its closest k-center. Those data points which are near to the particular k-center, create a cluster.
 
-Hence each cluster has datapoints with some commonalities, and it is away from other clusters.
+Hence each cluster has datapoints with some commonalities, and it is away from other clusters. 
+
+It basically uses the elbow method to determine the optimum number of clusters.
 
 K-Means are very simple and easy to implement. It is highly scalable and applicable to both small and large datasets. However, there is a problem with choosing the number of clusters or K. Also, as the dimensionality increases, the stability decreases. Overall, however, K Means is a simple and robust algorithm that makes clustering very easy.
 
@@ -41,9 +43,9 @@ K-Means are very simple and easy to implement. It is highly scalable and applica
 ## **Process:**
 
 1. Understanding the data.
-2. Perform Elbow method to find Optimal No. of clusters.
-3. Training a model using unsupervised learning algorithm(K-means)
-4. Plotting the Clusters.
+2. Performing the elbow method to find optimal number of clusters.
+3. Training a model using unsupervised learning algorithm (K - means).
+4. Plotting the clusters.
 
 
 ## **Mall Customers Data Segmentation:**
@@ -81,13 +83,13 @@ We first observed the distributions of Annual Income and the Spending Scores of 
 ![image](https://user-images.githubusercontent.com/73705676/205504473-f8a85890-6c53-4b2a-a751-e267f5372528.png)
 
 
-Then we try to determine the number of clusters that can be formed based on these two features using the elbow method
+Then we try to determine the number of clusters that can be formed based on these two features using the elbow method.
 
 ### ELBOW PLOT
 ![image](https://user-images.githubusercontent.com/73705676/205504596-60195681-ce3c-4abd-a8f2-db8adfe955c6.png)
 
 
-From this graph, we find that 5 clusters can be formed with labels starting from 0 to 1.
+From this graph, we find that optimally 5 clusters can be formed with labels starting from 0 to 1.
 
 ### SCATTER PLOT
 ![image](https://user-images.githubusercontent.com/73705676/205504812-9381b0dd-9f39-4035-8283-3281e6dbdc5c.png)
@@ -105,4 +107,4 @@ It can be clearly seen that five distinct clusters formed from the data.
 
 ## **Conclusion:**
 
-Hence we can say company should target the orange cluster (label = 1) and the red cluster (label = 4) in order to increase their sales and gnerate maximum revenue.
+Hence we can say company should target the orange cluster (label = 1) and the red cluster (label = 4) in order to increase their sales and gnerate maximum revenue. 
