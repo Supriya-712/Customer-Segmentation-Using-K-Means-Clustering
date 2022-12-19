@@ -1,4 +1,4 @@
-# CUSTOMER SEGMENTATION USING K -  MEANS CLUsTERING
+# CUSTOMER SEGMENTATION USING K -  MEANS CLUSTERING
 
 ## **Title:**
 Customer Segmentation Using K Means Clustering
