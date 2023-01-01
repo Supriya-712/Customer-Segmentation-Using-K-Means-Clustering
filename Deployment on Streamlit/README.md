@@ -2,7 +2,7 @@
 
 ## **Objective:**
 
-Our objective is to create a complete end-to-end product that can be used to predict the right cluster to which a customer belongs based on his annual income and spending score. 
+Our objective is to create a complete end-to-end product that can be used to predict the right cluster to which a customer belongs, based on his annual income and spending score. 
 
 ## **Process:**
 
