@@ -42,7 +42,7 @@ Streamlit is an open source app framework in Pyhon language. It helps us create 
 
 ## **Conclusion:**
 
-We have used unsupervised ML algorithm to train our model amd predict accurate clusters for each customer based on their annual income and spending scores. 
+We have used unsupervised ML algorithm to train our model and predict accurate clusters for each customer based on their annual income and spending scores. 
 
 Using this prediction and acquiring a complete dataset, we used the generated data to train our supervised ML model. 
 
