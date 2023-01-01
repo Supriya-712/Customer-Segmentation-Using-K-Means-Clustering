@@ -5,7 +5,7 @@ Customer Segmentation Using K Means Clustering
 
 
 ## **Problem Statement:**
-We are given a dataset consisting of details regarding customers of a shoppng mall. Based on this mall customers dataset, and performing K-Means clustering, we need to segregate customers in form of optimal clusters.
+We are given a dataset consisting of details regarding customers of a shoppng mall. Based on this mall customers dataset, and performing K-means clustering, we need to segregate customers in form of optimal clusters.
 
 	
 ##	**Clustering Algorithms:**
@@ -23,21 +23,21 @@ When you're starting with data you know nothing about, clustering might be a goo
 
 ## **K - Means Clustering Algorithm:**
 
-K-Means clustering is an unsupervised machine learning algorithm that divides specified data into a specified number of clusters. Here 'K' is the specified number of defined clusters that need to be created.
+K-means clustering is an unsupervised machine learning algorithm that divides specified data into a specified number of clusters. Here 'K' is the specified number of defined clusters that need to be created.
 
 This is a centroid-based algorithm where each cluster is associated with a centroid. The main idea is to reduce the distance between the data points and their respective cluster centroids.
 
-The k-means clustering algorithm mainly performs two tasks:
+The K-means clustering algorithm mainly performs two tasks:
 
 1. Determines the best value for K center points or centroids by an iterative process.
 
-2. Assigns each data point to its closest k-center. Those data points which are near to the particular k-center, create a cluster.
+2. Assigns each data point to its closest K-center. Those data points which are near to the particular k-center, create a cluster.
 
 Hence each cluster has datapoints with some commonalities, and it is away from other clusters. 
 
 It basically uses the elbow method to determine the optimum number of clusters.
 
-K-Means are very simple and easy to implement. It is highly scalable and applicable to both small and large datasets. However, there is a problem with choosing the number of clusters or K. Also, as the dimensionality increases, the stability decreases. Overall, however, K Means is a simple and robust algorithm that makes clustering very easy.
+K-means are very simple and easy to implement. It is highly scalable and applicable to both small and large datasets. However, there is a problem with choosing the number of clusters or K. Also, as the dimensionality increases, the stability decreases. Overall, however, K-means is a simple and robust algorithm that makes clustering very easy.
 
 
 ## **Process:**
