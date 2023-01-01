@@ -6,13 +6,13 @@ Our objective is to create a complete end-to-end product that can be used to pre
 
 ## **Process:**
 
-1. When we have performed K means clustering based on our mall customers dataset and found out suitable cluster labels, we can now use it to create our own supervised model.
+1. When we have performed K-means clustering based on our mall customers dataset and found out suitable cluster labels, we can now use it to create our own supervised model.
 2. We use random forest classifier to train our model and get maximum accuracy.
 3. Now, we convert our model into a Pickle file and load it on Streamlit. 
 
 ## **Creating Supervised Model:**
 
-Once we have obtained the clusters from K means clustering, we can train our model to predict the cluster label on its own.
+Once we have obtained the clusters from K-means clustering, we can train our model to predict the cluster label on its own.
 
 This will be based on only two features: Annual Income (k$) and Spending Score (1-100)
 
