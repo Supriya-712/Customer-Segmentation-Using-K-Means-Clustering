@@ -9,6 +9,12 @@ We are given a dataset consisting of details regarding customers of a shopping m
 
 **(Dataset link : https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)**
 
+## **Objectives:**
+
+1. To create accurate segments of customers based on similar annual income and spending score.
+2. To understand the different kinds of customers and their needs. 
+3. To make better business decisions by making suitable for policies for various types of customers.
+
 	
 ##	**Clustering Algorithms:**
 
