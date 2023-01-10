@@ -1,8 +1,16 @@
 # DEPLOYING OUR MODEL ON STREAMLIT
 
-## **Objective:**
+## **Title:**
+Deploying the finished software product on Streamlit.
 
-Our objective is to create a complete end-to-end product that can be used to predict the right cluster to which a customer belongs, based on his annual income and spending score. 
+## **Problem Statement:**
+Using the dataset obtained from unsupervised learning of customer data, our aim is to train our model to accurately predict the suitable cluster of each customer. Also, our goal is to make a complete end-to-end product and deploy it on Streamlit for the end-user use. 
+
+## **Objectives:**
+
+1. To use the clustering dataset to train our supervised model using random forest algorithm.
+2. To create the front-end for our model by deploying the trained model on Streamlit.
+3. To enable the end-user to predict the suitable cluster, by simply giving annual income and spending score as inputs.
 
 ## **Process:**
 
