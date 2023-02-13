@@ -115,4 +115,10 @@ It can be clearly seen that five distinct clusters formed from the data.
 
 ## **Conclusion:**
 
-Hence we can say company should target the orange cluster (label = 1) and the red cluster (label = 4) in order to increase their sales and gnerate maximum revenue. 
+Hence we can say company should target the orange cluster (label = 1) and the red cluster (label = 4) in order to increase their sales and gnerate maximum revenue.
+
+## **Future Scope:**
+
+The model should be deployed as an end-to-end project consiting of a user friendly interface. 
+
+**(NOTE: This generated data has already been used to train a supervised model. The trained model has been deployed using Streamlit. Deployed project has been provided in this repository.)**
