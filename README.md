@@ -7,7 +7,7 @@ Customer Segmentation Using K Means Clustering
 ## **Problem Statement:**
 We are given a dataset consisting of details regarding customers of a shopping mall. Based on this mall customers dataset, and performing K-means clustering, we need to segregate customers in form of optimal clusters.
 
-**(Dataset link : https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)**
+**(Dataset Link : https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)**
 
 ## **Objectives:**
 
@@ -121,4 +121,4 @@ Hence we can say company should target the orange cluster (label = 1) and the re
 
 The model should be deployed as an end-to-end project consiting of a user friendly interface. 
 
-**(NOTE: This generated data has already been used to train a supervised model. The trained model has been deployed using Streamlit. Deployed project has been provided in this repository.)**
+**(NOTE : This generated data has already been used to train a supervised model. The trained model has been deployed using Streamlit. Deployed project has been provided in this repository.)**
