@@ -57,3 +57,11 @@ Using this prediction and acquiring a complete dataset, we used the generated da
 We have successfully deployed our project on Streamlit to provide it with a user friendly interface as well. 
 
 Hence, our end-to-end product is ready for use. 
+
+
+## **Future Work:**
+
+The model should be able to take multiple inputs in the form a file and predict accurate cluster for each data point.
+
+This model should also be trained on more than two attributes of customer data as implemented in this project. The will reduce the complexity of dataset and provide better results. 
+
